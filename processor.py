@@ -66,7 +66,7 @@ MIN_SUCCESSFUL_TESTS_RATIO: float = 0.6
 QUICK_CHECK_TIMEOUT: int = 2
 
 MAX_CONFIGS_TO_TEST: int = 90000 # محدودیت معقول‌تر
-FINAL_MAX_OUTPUT_CONFIGS: int = 1000
+FINAL_MAX_OUTPUT_CONFIGS: int = 2000
 
 # شناسه برای جلوگیری از تکرار
 SEEN_IDENTIFIERS: Set[Tuple[str, int, str]] = set()
